@@ -1,0 +1,32 @@
+spring:
+  #邮箱配置
+  mail:
+    host: smtp.qq.com
+    username: 917484312@qq.com
+    #QQ邮箱的授权码
+    password: 自己申请
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  freemarker:
+    content-type: text/html
+    #后缀名
+    suffix: .ftl
+    template-loader-path: classpath:/templates
+    charset: UTF-8
+    check-template-location: true
+
+  #freemarker配置
+
+
+
+
+#设置一个邮件发送人
+lance:
+  mail:
+    sender: 917484312@qq.com
