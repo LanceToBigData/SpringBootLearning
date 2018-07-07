@@ -13,6 +13,7 @@ spring:
           starttls:
             enable: true
             required: true
+  #freemarker配置
   freemarker:
     content-type: text/html
     #后缀名
@@ -20,8 +21,9 @@ spring:
     template-loader-path: classpath:/templates
     charset: UTF-8
     check-template-location: true
-
-  #freemarker配置
+  # Active Profile Settings
+  profiles:
+    active: @profileActive@
 
 
 
