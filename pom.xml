@@ -13,6 +13,8 @@
 
 	<modules>
 		<module>SpringBoot-Mail</module>
+		<module>SpringBoot-Swagger</module>
+		<module>SpringBoot-Mybatis</module>
 	</modules>
 
 	<profiles>
