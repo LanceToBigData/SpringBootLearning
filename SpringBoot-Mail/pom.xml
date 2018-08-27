@@ -6,7 +6,7 @@
 	<artifactId>springboot-mail</artifactId>
 
 	<name>SpringBoot-Mail</name>
-	<description>SpringBoot整和Mail</description>
+	<description>SpringBoot整合Mail</description>
 
 	<parent>
 		<groupId>com.lance.learn</groupId>

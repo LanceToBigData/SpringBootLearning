@@ -1,0 +1,16 @@
+#修改端口号
+server:
+        port: 8011
+
+spring:
+        #config mysql datasource
+        datasource:
+                url: jdbc:mysql://127.0.0.1:3306/lance?useUnicode=true&characterEncoding=utf8
+                username: root
+                password: 12345
+                driver-class-name: com.mysql.jdbc.Driver
+
+#mybatis config
+mybatis:
+        mapper-locations: classpath:mapper/*.xml
+
