@@ -1,6 +1,6 @@
 #update port :8010
 server:
-  address: 8010
+  port: 8010
 
 spring:
   #config mysql datasource
